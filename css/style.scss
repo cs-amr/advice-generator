@@ -1,0 +1,63 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Manrope';
+    background-color: hsl(218, 23%, 16%);
+    .card {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background:hsl(217, 19%, 24%);
+        max-width:540px;
+        padding: 52px;
+        border-radius: 15px;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        -ms-border-radius: 15px;
+        -o-border-radius: 15px;
+        box-shadow: 0px 15px 25px 12px rgba(27, 27, 27, 0.24);
+        h4{
+            color: hsl(150, 100%, 66%);
+            width: fit-content;
+            margin: auto;
+            font-weight: lighter;
+            font-weight: 400;
+        }
+        p {
+            color: hsl(193, 38%, 86%);
+            width: fit-content;
+            font-weight: 900;
+            margin: 40px auto;   
+            text-align: center;  
+        }
+        #dice {
+            background-color: hsl(150, 100%, 66%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            -ms-border-radius: 50%;
+            -o-border-radius: 50%;
+            position: absolute;
+            bottom: -20px;
+            left: 50%;
+            transform: translatex(-50%);
+            
+            -webkit-transform: translatex(-50%);
+            -moz-transform: translatex(-50%);
+            -ms-transform: translatex(-50%);
+            -o-transform: translatex(-50%);
+            img{
+                width: 50%;
+                height: 50%;
+            }
+}
+    }
+}
